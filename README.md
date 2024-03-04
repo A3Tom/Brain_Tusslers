@@ -1,6 +1,9 @@
 # Brain_Tusslers
 
-A repo where algorithms n challenges punish my single digit neuron count like some mad programmin kung fu master
+A repo where algorithms n challenges punish my single digit neuron count like some mad programmin kung fu master  
+
+A global rule applies to implementations in this repo:  
+**Strictly no IDE AI usage. LSP Intellisense allowed but CoPilot, Tab9 etc instantly disqualifies ye**
 
 ## Challenges
 
