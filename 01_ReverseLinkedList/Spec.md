@@ -12,17 +12,16 @@ The list can be of any length, including 0 (empty list).
 
 The output should be the new head of the list after reversal. If the list is empty, return null or the equivalent in your programming language.
 
-## Restrictions
+## Bonus Restrictions
 These are optional but the more you stack, the more points you get. +1 per restriction, no matter what it is.
 
-- Reverse the list in place
-  - No additional lists, temp variables allowed
-- Strongly typed
-- Calculate Time Complexity
-- Add atleast 3 tests
+- [X] Reverse the list in place - no additional lists, temp variables allowed
+- [X] Strongly typed
+- [ ] Calculate Time Complexity
+- [ ] Add atleast 3 tests
 
 ## Implementations
 
 | Lang | Points | Rating | Implementation
 |------|:------:|:------:|---------------
-| `python` | 1 | :point_right::point_right::point_right: | [Implementation.md](./python/Implementation.md)
+| `python` | 3 | :point_right::point_right::point_right: | [Implementation.md](./python/Implementation.md)
