@@ -17,11 +17,11 @@ These are optional but the more you stack, the more points you get. +1 per restr
 
 - [X] Reverse the list in place - no additional lists, temp variables allowed
 - [X] Strongly typed
-- [ ] Calculate Time Complexity
+- [X] Calculate Time Complexity - it's O(n) in the reverse() method
 - [ ] Add atleast 3 tests
 
 ## Implementations
 
 | Lang | Points | Rating | Implementation
 |------|:------:|:------:|---------------
-| `python` | 3 | :point_right::point_right::point_right: | [Implementation.md](./python/Implementation.md)
+| `python` | 4 | :point_right::point_right::point_right: | [Implementation.md](./python/Implementation.md)
