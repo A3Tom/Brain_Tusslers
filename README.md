@@ -9,4 +9,4 @@ A global rule applies to implementations in this repo:
 
 | ID | Challenge | Description | Implementation(s) | Fun rating 
 |----|-----------|-------------|-------------------|-----------
-| 01 | Reverse a linked list | Write a function to reverse a singly or doubly linked list | 
+| 01 | Reverse a linked list | Write a function to reverse a singly or doubly linked list | [Python](./01_ReverseLinkedList/python/Implementation.md) | :point_right::point_right::point_right:<br>_3 Finger guns_
