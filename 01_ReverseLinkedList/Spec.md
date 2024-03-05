@@ -25,4 +25,4 @@ These are optional but the more you stack, the more points you get. +1 per restr
 
 | Lang | Points | Rating | Implementation
 |------|:------:|:------:|---------------
-|      |        |        |               
+| `python` | 1 | :point_right::point_right::point_right: | [Implementation.md](./python/Implementation.md)
