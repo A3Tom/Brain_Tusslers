@@ -1,5 +1,4 @@
 import random
-import uuid
 
 class Node:
     def __init__(self, value: int):
@@ -25,11 +24,6 @@ class LinkedList:
         
         self.head = current_node
         self.head.next = prev_node
-
-
-
-heap: dict[str, Node] = {}
-n = 4
 
 
 def generate_node(n: int) -> Node:
@@ -66,6 +60,7 @@ def run():
     linked_list.reverse()
     output_snake(linked_list)
 
+n = 4
 print("Starting")
 run()
 print("Exiting")
