@@ -3,8 +3,8 @@ import random
 class Node:
     def __init__(self, value: int):
         self.value = value
-        self.next = None
-        self.reference = random.randrange(0, 1_000)
+        self.next: None|Node = None
+        self.reference = random.randrange(-99_444, 23_952)
 
 class LinkedList:
     def __init__(self, head: Node|None):
@@ -22,6 +22,7 @@ def generate_full_node_snake(n: int) -> LinkedList:
 
     head_node: Node = generate_node(n)
     head_node.next = previous_segment
+    return LinkedList(head_node)
 
 def output_snake(linked_list: LinkedList) -> None:
     if (linked_list.head == None):
@@ -30,6 +31,6 @@ def output_snake(linked_list: LinkedList) -> None:
     idx = 0
     current_node: Node = linked_list.head
     while current_node.next != None:
-        print(f'Node [{idx}] | Value [{current_node.value}] | Ref [{current_node.reference}] | id [{id(current_node)}]')
+        print(f'Node [{idx}] | Value [{current_node.value}] | Ref [{current_node.reference}] | Memory Location: {hex(id(current_node))}')
         current_node = current_node.next
         idx += 1
